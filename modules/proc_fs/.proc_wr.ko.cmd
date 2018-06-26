@@ -1,0 +1,1 @@
+cmd_/home/aleksei/modules/proc_fs/proc_wr.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/aleksei/modules/proc_fs/proc_wr.ko /home/aleksei/modules/proc_fs/proc_wr.o /home/aleksei/modules/proc_fs/proc_wr.mod.o ;  true
